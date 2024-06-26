@@ -3,7 +3,16 @@
 ![image](https://github.com/diegogovea/Programaci-n-en-JavaScript/assets/87109033/7e4728b1-41e2-4424-aeae-a2621f9ecb46)
 
 ```
-sdkjaskd
+    <header>
+        <h1>AREA DE CIRCULO</h1>
+    </header>
+    <p>Bienvenido! Ingresa los datos correspondientes</p>
+
+    <label for="radio">Enter the radius:</label>
+    <input type="number" id="radio" name="radio">
+
+    <button onclick="calcularArea()">Calculate</button>
+    <br>
 ```
 
 
