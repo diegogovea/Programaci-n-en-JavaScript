@@ -10,8 +10,8 @@ variedad de archivos de prueba, que si bien también nos aportan y se procurará
 ## EJERCICIOS
  1. CALCULAR AREA DE UN CÍRCULO
     ---
- 3. ---
- 4. ---
+ 3. Buenas tardes
+    ---
  5. ---
  6. ---
 
