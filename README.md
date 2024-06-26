@@ -8,8 +8,8 @@ tener una mejor organización, cada carpeta contendrá el nombre del ejercicio y
 variedad de archivos de prueba, que si bien también nos aportan y se procurará explicarlos, no van a estar igual de organizados que las carpetas principales.
 
 ## EJERCICIOS
- 1. ---
- 2. ---
+ 1. GHGFHFGH
+    ---
  3. ---
  4. ---
  5. ---
