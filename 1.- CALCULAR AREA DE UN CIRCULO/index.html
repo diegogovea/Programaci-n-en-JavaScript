@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Area de un circulo</title>
+</head>
+<body>
+    <header>
+        <h1>AREA DE CIRCULO</h1>
+    </header>
+    <p>Bienvenido! Ingresa los datos correspondientes</p>
+
+    <label for="radio">Enter the radius:</label>
+    <input type="number" id="radio" name="radio">
+
+    <button onclick="calcularArea()">Calculate</button>
+    <br>
+    <!--<script src="prueba.js"></script>-->
+   
+    <script>
+        // Declaración de variables
+            
+            const PI = 3.1416;
+
+            function calcularArea(){
+                const radio = document.getElementById("radio").value;
+
+                // Imprimir los valores de las variables
+                console.log("Radio: " + radio);
+                console.log("Valor de PI: " + PI);
+
+                let area = PI*radio*radio;
+                
+                document.write('El area es: ',imprimir(area));
+                
+
+            }
+
+            function imprimir(area){
+                // Imprimir los resultados de las operaciones
+                console.log("Area: " + area);
+                
+
+                return area
+            }
+            
+          
+        
+    </script>
+   
+</body>
+</html>
