@@ -8,7 +8,7 @@ tener una mejor organización, cada carpeta contendrá el nombre del ejercicio y
 variedad de archivos de prueba, que si bien también nos aportan y se procurará explicarlos, no van a estar igual de organizados que las carpetas principales.
 
 ## EJERCICIOS
- 1. GHGFHFGH
+ 1. CALCULAR AREA DE UN CÍRCULO
     ---
  3. ---
  4. ---
