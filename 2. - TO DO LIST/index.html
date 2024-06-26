@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TO DO LIST</title>
+</head>
+<body>
+    <h1>TO DO LIST</h1>
+    <input type="text" id="tarea" name="tarea" placeholder="Agregar Tarea"><br>
+    <button onclick="agregarTarea()" id="agregar">Agregar</button>
+
+    <ul id="lista"> </ul>
+
+    <script>
+        function agregarTarea(){
+            var tarea = document.getElementById("tarea").value;
+            var lista = document.getElementById("lista");
+            var nuevaTarea = document.createElement("li");
+            nuevaTarea.innerHTML = tarea;
+            lista.appendChild(nuevaTarea);
+        }
+    </script>
+
+
+
+</body>
+</html>
