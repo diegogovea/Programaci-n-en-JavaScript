@@ -8,7 +8,10 @@
     <input type="text" id="tarea" name="tarea" placeholder="Agregar Tarea"><br>
     <button onclick="agregarTarea()" id="agregar">Agregar</button>
 
-    <ul id="lista"> </ul>
+    <div style="display: flex;">
+        <ul id="lista"></ul>
+        
+    </div>
 
     <script>
         function agregarTarea(){
@@ -16,7 +19,18 @@
             var lista = document.getElementById("lista");
             var nuevaTarea = document.createElement("li");
             nuevaTarea.innerHTML = tarea;
+            
+            var completadaBtn = document.createElement("input");
+            completadaBtn.type = "checkbox";
+
+            completadaBtn.onclick = function() {
+                nuevaTarea.style.textDecoration = "line-through";
+            };
+            
+            nuevaTarea.appendChild(completadaBtn);
             lista.appendChild(nuevaTarea);
+
+            document.getElementById("tarea").value = "";
         }
     </script>
 
